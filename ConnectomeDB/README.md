@@ -1,5 +1,5 @@
 ConnectomeDB is a data management platform where users can access, explore and download the latest datasets from the Human Connectome Project.
-The instruction below shows how to download HCP_1200 from ConnectomeDB on one of the YCRC clusters. 
+The instruction below shows how to download HCP_1200 from ConnectomeDB to one of the YCRC clusters. 
 
 1. If you haven't had an account from ConnectomeDB, register for a new account at [ConnectomeDB website](https://db.humanconnectome.org).
 2. Once your get your account, sign in to the website.
