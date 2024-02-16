@@ -1,5 +1,5 @@
 ConnectomeDB is a data management platform where users can access, explore and download the latest datasets from the Human Connectome Project.
-The instruction below show how to download HPC_1200 from ConnectomeDB on one of the YCRC clusters. 
+The instruction below show how to download HCP_1200 from ConnectomeDB on one of the YCRC clusters. 
 
 1. If you haven't had an account from ConnectomeDB, register for a new account at [ConnectomeDB website](https://db.humanconnectome.org).
 2. Once your get your account, sign in to the website.
@@ -18,7 +18,7 @@ Default region name [None]: us-east-1
 Default output format [None]: 
 ```
 Provide the access key and secret key you obtained in step 5 when prompted to do so. The region name is `us-east-1`.
-7. Now you can view and download the HPC_1200 datasets
+7. Now you can view and download the HCP_1200 datasets
 ```bash
 $ aws s3 ls s3://hcp-openaccess/HCP_1200/100206/MNINonLinear/Results/tfMRI_WM_LR/tfMRI_WM_LR_Atlas_MSMAll.dtseries.nii
 $ aws s3 cp s3://hcp-openaccess/HCP_1200/100206/MNINonLinear/Results/tfMRI_WM_LR/tfMRI_WM_LR_Atlas_MSMAll.dtseries.nii .
